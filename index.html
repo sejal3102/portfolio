@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Responsiv portfolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="custom.js"></script>
+	<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+	</head>
+	<body>
+		<header> 
+			<nav> 
+               <div class="logo">PORTFO<span>LIO</span> </div>
+
+               <div class="menu"> 
+                  <a href="#"> Home</a>
+                  <a href="#"> About</a>
+                  <a href="#"> Skills</a>
+                  <a href="#"> Services</a>
+                  <a href="#"> Contact</a>
+              </div>
+          </nav>
+
+          <div class="text">
+          	<p> Hello, I am</p>
+          	<h1>Sejal Shukla</h1>
+          	<p> And I am front End Developer</p>
+          	<button class="c-btn">Hire me</button>
+          </div>
+      </header>
+
+		<section id="about">
+          	   <div class="section-info">
+          		<h1> About</h1>
+          		<p>Who i am?</p>
+          	   </div>
+
+          	   <div class="about-row"> 
+                  <div class="about-left-col">
+               	     <img src="sejal.3.jpg">
+                  </div>
+
+                       <div class="about-right-col">
+                   	        <p id="p-title">
+                   	            Hello, I'm sejal & I'm a Developer
+                            </p>
+
+                   	        <p> 
+                                 Astrology is the study of the influence that distant cosmic objects,usually stars and planets, have on human lives. Astrology is the study of the influence that distant cosmic objects, usually stars and planets, have on human lives. Astrology is the study of the influence that distant cosmic objects, usually stars and planets, have on human lives.
+                            </p>
+                        <button class="c-btn"> Download CV</button>
+                        </div>
+          	    </div>
+          </section>
+
+          <section id="skills">
+          	<div class="section-info">
+          		<h1 style="color: white;"> Skill's</h1>
+          		<p>Who i am?</p>
+          	   </div>
+
+          	   <div class="skills-row">
+          	   	  <div class="skills-left-col" class="flex.container" style="width: 50%; ">
+          	   	  	<p> 
+          	   	  		Astrology is the study of the influence that distant cosmic objects,usually stars and planets, have on human lives. Astrology is the study of the influence that distant cosmic objects, usually stars and planets, have on human lives. Astrology is the study of the influence that distant cosmic objects, usually stars and planets, have on human lives.
+                    </p>
+                    <button class="c-btn">Read more</button>
+          	   	  </div>
+                  <div class="skills-right-col" style="width: 40%; ">
+
+                    <div class="progress-div" style="padding-left: 200px;">
+                    <p>
+                    	<span>HTML</span><br>
+                        <progress value="80" max="100"></progress>
+                        <span>90%</span>
+                 
+                    </p>
+                    <p>
+                    	<span>CSS</span><br>
+                    	<progress value="80" max="100"></progress>
+                    	<span>80%</span>
+                    </p>
+                    <p>
+                    	<span>JAVASCRIPT</span><br>
+                    	<progress value="80" max="100"></progress>
+                    	<span>70%</span>
+                    </p>
+                    <p>
+                    	<span>JQUERY</span><br>
+                    	<progress value="80" max="100"></progress>
+                    	<span>65%</span>
+                    </p>
+                    <p>
+                    	<span>BOOTSTRAP</span><br>
+                    	<progress value="80" max="100"></progress>
+                    	<span>80%</span>
+                    </p>
+
+                    </div>
+
+                   </div>
+          	   </div>
+          </section>
+
+          <sction id="services">
+            <div class="section-info">
+          		<h1>services</h1>
+          		<p>what we provide</p>
+          	   </div>
+
+          	   <div class="services-row">
+          	   	 <div class="services-box">
+          	   	 	<img src="b2.png">
+          	   	 	<h1> Web Design</h1>
+          	   	 	<p>
+          	   	 		Astrology is the study of the influence that distant cosmic objects,usually stars and planets, have on human lives.
+          	   	 	</p>
+          	   	 </div>
+          	   	 <div class="services-box">
+          	   	 	<img src="b2.png">
+          	   	 	<h1> Web Development</h1>
+          	   	 	<p>
+          	   	 		Astrology is the study of the influence that distant cosmic objects,usually stars and planets, have on human lives.
+          	   	 	</p>
+          	   	 </div>
+          	   	 <div class="services-box">
+          	   	 	<img src="b2.png">
+          	   	 	<h1> Apps Development</h1>
+          	   	 	<p>
+          	   	 		Astrology is the study of the influence that distant cosmic objects,usually stars and planets, have on human lives.
+          	   	 	</p>
+          	   	 </div>
+          	   </div>
+          	</section>
+
+             <section id="contact">
+             	<div class="section-info">
+          		<h1>Get in Touch</h1>
+          		<p1> What We Provide</p1>
+          	   </div>
+             	<div class="contact-row">
+             		<div class="contact-left-col">
+             			<img src="b3.png">
+             		</div>
+             		<div class="contact-right-col">
+             			<form>
+             				<h2> Connect with us</h2>
+             				<input type="text" name="" placeholder="Name">
+             				<input type="email" name="" placeholder="E-mail">
+             				<br>
+             				<textarea cols="40" rows="10" placeholder="Message"></textarea>
+             				<br>
+             				<button class="c-btn"> Submit</button>
+
+             			</form>
+             		</div>
+             	</div>
+             </section>
+
+             <section id="footer">
+             	<h2> Developed by sejal shukla</h2>
+             	<img src="icon.png" width="100">
+             </section>
+
+             <script src="jquery.ripples-min.js"></script>
+             <script>
+             	jquery(document).ready(function(){
+             		$("header").ripples({
+                         dropRadius: 20,
+                         perturbance:0.03,
+                         });
+             	    });
+             </script>
+
+
+
+	</body>
+</html>
